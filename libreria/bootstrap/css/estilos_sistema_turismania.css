@@ -1,0 +1,187 @@
+/* Disenio del sistema turista*/
+
+.btn-default
+{
+   border-radius: 0px;
+   background: #74DF00;
+   border-style: none;
+   border-radius: 0px;
+   transition: 1s;
+   color: green;
+
+}
+
+.btn-default:hover
+{
+
+   background: #3ADF00;
+   border-style: 0px;
+   transition: 1s;
+   color:yellow;
+  
+}
+
+.btn-default:focus
+{  outline:0px;
+   border-radius: 0px;
+   background: #5FB404;
+   border-style: none;
+   color: green;
+   border:0px;
+   box-shadow: 1px 1px 1px yellow;
+    color:yellow;
+}
+
+.btn-success
+{
+   border-radius: 0px;
+   background: #74DF00;
+   border-style: none;
+   border-radius: 0px;
+   transition: 1s;
+   color: green;
+
+}
+
+.btn-success:hover
+{
+   background: #3ADF00;
+   border-style: 0px;
+   transition: 1s;
+   color:yellow;
+   font-size: 20px;
+  
+}
+
+.btn-success:focus
+{  outline:0px;
+   border-radius: 0px;
+   background: #5FB404;
+   border-style: none;
+   color: green;
+   border:0px;
+   box-shadow: 1px 1px 1px yellow;
+    color:yellow;
+}
+
+.form-control
+{   
+	outline:0px;
+	border-radius: 0px;
+	background: transparent;
+	border-style: none;
+	box-shadow:none;
+	border-bottom: 2px solid yellow;
+	color:#D7DF01;
+	transition: 1s;
+
+
+}
+.form-control:hover
+{
+	
+}
+.form-control:focus
+{
+	 outline:0px;
+     box-shadow:none;
+     border-bottom: 2px solid green;
+     transition: 1s;
+}
+
+.form-control::placeholder 
+{
+	color:yellow;
+}
+
+.form-control::placeholder:hover 
+{
+	color:green;
+}
+
+/* Estilos paneles */
+
+#panel_individual_ofertas
+{
+	background:#EAECEE; 
+	height:300px; 
+	padding: 0px; 
+	padding-top: 0px; 
+	width: 100%;
+	transition: 1s;
+	color:#515A5A;
+}
+
+#panel_individual_ofertas:hover
+{
+	background: white; 
+	transition: 1s;
+	box-shadow: 1px 1px 1px 2px #ABB2B9;
+}
+
+#titulo_empresa
+{
+	margin: 0px; 
+	color: #38610B;
+	font-weight: bold;
+	transition: 1s;
+}
+
+#titulo_empresa:hover
+{
+	font-size: 35px;
+	transition: 1s;
+	cursor: pointer;
+	color: #4B8A08;
+}
+
+#panel_botones
+{
+ background:#04B404;
+ padding: 3%;
+}
+
+#btn_botones
+{
+  
+  border-style: none;
+  margin: 0px;
+  border-radius: 0px;
+  background: white;
+  transition: 1s;
+  color:green;
+
+}
+
+#btn_botones:hover
+{
+  
+  font-size: 20px;
+  transition: 1s;
+
+}
+
+#btn_botones:focus
+{
+  background:#04B404;
+  color: yellow;
+  outline:0px;
+
+}
+
+#titulo_empresa_ex
+{
+	margin: 0px; 
+	color: red;
+	font-weight: bold;
+	transition: 1s;
+	cursor: pointer;
+}
+
+#titulo_empresa_ex:hover
+{
+	font-size: 35px;
+	transition: 1s;
+	cursor: pointer;
+	color: #4B8A08;
+}
